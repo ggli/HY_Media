@@ -26,8 +26,8 @@
 - (void)loadMovie{
     //1.创建URL
     NSURL *url = [[NSBundle mainBundle] URLForResource:@"testvideo.mp4" withExtension:nil];
-    
     //2.创建视频播放控制器
+    NSAssert(url, @"URL不能为空");
     MPMoviePlayerViewController *vc = [[MPMoviePlayerViewController alloc] initWithContentURL:url];
     //3.弹出视频播放控制器
     [self presentMoviePlayerViewControllerAnimated:vc];
