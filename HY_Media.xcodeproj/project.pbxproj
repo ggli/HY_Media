@@ -83,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC5C06CF1D3736520036A5B9 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BC39658F1D3499FD00A76A0C /* testvideo.mp4 */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
 		BCEF1DEA1D1791CA0004CBC1 = {
 			isa = PBXGroup;
 			children = (
@@ -110,12 +118,12 @@
 				BCEF1DF91D1791CC0004CBC1 /* AppDelegate.h */,
 				BCEF1DFA1D1791CC0004CBC1 /* AppDelegate.m */,
 				BCEF1DFC1D1791CC0004CBC1 /* ViewController.h */,
-				BC39658F1D3499FD00A76A0C /* testvideo.mp4 */,
 				BCEF1DFD1D1791CC0004CBC1 /* ViewController.m */,
 				BCEF1DFF1D1791CC0004CBC1 /* Main.storyboard */,
 				BCEF1E021D1791CC0004CBC1 /* Assets.xcassets */,
 				BCEF1E041D1791CC0004CBC1 /* LaunchScreen.storyboard */,
 				BCEF1E071D1791CC0004CBC1 /* Info.plist */,
+				BC5C06CF1D3736520036A5B9 /* Resource */,
 				BCEF1DF61D1791CC0004CBC1 /* Supporting Files */,
 			);
 			path = HY_Media;
