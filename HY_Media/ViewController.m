@@ -58,10 +58,13 @@
 
 - (void)loadNetMovie
 {
+    NSString * url = @"http://ouzhenxuan.file.alimmdn.com/560a4ced60b258073cc75269/ios1444120900.jpg?t=1444120909931";
+    NSURL *mediaURL = [NSURL URLWithString:url];
     //NSURL *mediaURL = [NSURL URLWithString:@"http://baobab.wdjcdn.com/1455782903700jy.mp4"];
-    NSURL *mediaURL = [[NSBundle mainBundle] URLForResource:@"testvideo.mp4" withExtension:nil];
+    //NSURL *mediaURL = [[NSBundle mainBundle] URLForResource:@"testvideo.mp4" withExtension:nil];
     self.playitem = [AVPlayerItem playerItemWithURL:mediaURL];
     self.player = [AVPlayer playerWithPlayerItem:self.playitem];
+    
     
     AVPlayerLayer *playerLayer = [AVPlayerLayer  playerLayerWithPlayer:self.player];
     playerLayer.frame = CGRectMake(0, 50, self.view.frame.size.width, 300);

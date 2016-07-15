@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HY_Media/ViewController.m"
-            timestampString = "490173325.169708"
+            timestampString = "490258322.51923"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
-            landmarkName = "-observeValueForKeyPath:ofObject:change:context:"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "-loadNetMovie"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
