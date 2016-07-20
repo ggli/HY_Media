@@ -58,7 +58,8 @@
 
 - (void)loadNetMovie
 {
-    NSString * url = @"http://ouzhenxuan.file.alimmdn.com/560a4ced60b258073cc75269/ios1444120900.jpg?t=1444120909931";
+//    NSString * url = @"http://ouzhenxuan.file.alimmdn.com/560a4ced60b258073cc75269/ios1444120900.jpg?t=1444120909931";
+    NSString *url = @"http://devimages.apple.com/iphone/samples/bipbop/bipbopall.m3u8";
     NSURL *mediaURL = [NSURL URLWithString:url];
     //NSURL *mediaURL = [NSURL URLWithString:@"http://baobab.wdjcdn.com/1455782903700jy.mp4"];
     //NSURL *mediaURL = [[NSBundle mainBundle] URLForResource:@"testvideo.mp4" withExtension:nil];
