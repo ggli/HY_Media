@@ -37,7 +37,7 @@
     [self.playitem addObserver:self forKeyPath:@"loadedTimeRanges"options:NSKeyValueObservingOptionNew context:nil];
     
     //添加定时器，更新当前的播放进度
-    __block ViewController *blockself = self;
+     __weak ViewController *blockself = self;
     [self.player addPeriodicTimeObserverForInterval:CMTimeMake(1.0,1.0)queue:dispatch_get_main_queue()usingBlock:^(CMTime time) {
         Float64 currentTime = CMTimeGetSeconds(time);
         [blockself upDateTimeSlider:currentTime];
